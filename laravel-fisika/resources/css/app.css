@@ -2,12 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("index.css");
+@import url("routing.css");
+
 #foldable {
     width: 320px;
 }
 
+/* Form styling: */
 #form {
-    margin-top: 10px;
+    margin-top: 1rem;
+    position: absolute;
+    top: 0;
+    z-index: 99;
+}
+
+.map {
+    height: 70vh;
 }
 
 .icon {
@@ -42,7 +53,6 @@
 
 .searchbox-container > .tt-search-box {
     flex: 1;
-    padding-right: 26px;
 }
 
 .my-location-button {

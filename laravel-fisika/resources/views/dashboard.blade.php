@@ -72,7 +72,8 @@
 	
         <div class="sm:px-6 lg:px-8" style="width: 100%;">
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
-                <div class="p-6 text-gray-900" style="height: 50vh">
+                <div class="p-6 text-gray-900" style="height: auto">
+					{{-- Map canvas: --}}
                     <div id='map' class='map'>
 						<div id='foldable' class='tt-overlay-panel -left-top -medium js-foldable'>
 							<form id=form>

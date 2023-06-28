@@ -44,17 +44,10 @@
 
         <script src='https://api.tomtom.com/maps-sdk-for-web/cdn/6.x/6.23.0/maps/maps-web.min.js'></script>
         <script src='https://api.tomtom.com/maps-sdk-for-web/cdn/6.x/6.23.0/services/services-web.min.js'></script>
+
         <script type='text/javascript' src='{{ Vite::asset('resources/js/mobile-or-tablet.js') }}'></script>
         <script type='text/javascript' src='{{ Vite::asset('resources/js/info-hint.js') }}'></script>
         <script type='text/javascript' src='{{ Vite::asset('resources/js/searchbox-enter-submit.js') }}'></script>
         <script type='text/javascript' src='{{ Vite::asset('resources/js/foldable.js') }}'></script>
-        {{-- <script type='text/javascript' src='../js/mobile-or-tablet.js'></script> --}}
-        {{-- <script type='text/javascript' src='resources/js/info-hint.js'></script>
-        <script type='text/javascript' src='../js/search/searchbox-enter-submit.js'></script>
-        <script type='text/javascript' src='../js/foldable.js'></script> --}}
-        {{-- <script src="https://api.tomtom.com/maps-sdk-for-web/cdn/6.x/&ltversion&gt;/maps/maps-web.min.js"></script> --}}
-        {{-- <script>
-            
-        </script> --}}
     </body>
 </html>
