@@ -29,6 +29,11 @@ class MapsController extends Controller
         return view('page.avoid');
     }
 
+    public function gallery()
+    {
+        return view('page.gallery');
+    }
+
     /**
      * Show the form for creating a new resource.
      */

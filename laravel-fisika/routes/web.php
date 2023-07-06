@@ -32,6 +32,7 @@ Route::middleware('auth')->group(function () {
     Route::get('/traffic', [MapsController::class, 'traffic'])->name('traffic');
     Route::get('/instruction', [MapsController::class, 'time'])->name('instruction');
     Route::get('/avoid', [MapsController::class, 'avoid'])->name('avoid');
+    Route::get('/galery', [MapsController::class, 'gallery'])->name('gallery');
 });
 
 require __DIR__.'/auth.php';

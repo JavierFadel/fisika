@@ -50,21 +50,7 @@
                         {{ __('Avoid') }}
                     </x-side-bar-link>
 				</div>
-				{{-- <div class="flex flex-col items-center w-full mt-2 border-t border-gray-300">
-					<a class="flex items-center w-full h-12 px-3 mt-2 rounded hover:bg-gray-300" href="#">
-						<span class="ml-2 text-sm font-medium">Products</span>
-					</a>
-					<a class="flex items-center w-full h-12 px-3 mt-2 rounded hover:bg-gray-300" href="#">
-						<span class="ml-2 text-sm font-medium">Settings</span>
-					</a>
-					<a class="relative flex	 items-center w-full h-12 px-3 mt-2 rounded hover:bg-gray-300" href="#">
-						<span class="ml-2 text-sm font-medium">Messages</span>
-					</a>
-				</div> --}}
 			</div>
-			{{-- <a class="flex items-center justify-center w-full h-16 mt-auto bg-gray-200 hover:bg-gray-300" href="#">
-				<span class="ml-2 text-sm font-medium">Account</span>
-			</a> --}}
 		</div>
 	
 		{{-- Map container: --}}
