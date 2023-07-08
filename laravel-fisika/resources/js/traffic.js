@@ -9,7 +9,7 @@ var map = tt.map({
     stylesVisibility: {
         trafficFlow: true
     },
-    center: [110.422859, -6.990360],
+    center: [107.6191, -6.9175],
     zoom: 12,
     dragPan: !isMobileOrTablet()
 });
